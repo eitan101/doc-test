@@ -1,3 +1,7 @@
+---
+permalink: workshop.html
+---
+
 # flow
 
 ## Prerequiesites 
