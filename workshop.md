@@ -11,9 +11,9 @@ permalink: workshop.html
 ## Github Pages
 1. Create a repo in github.com with Readme.
 2. Settings -> Github Pages -> 
-   Select master branch
-   Select Theme;
-   Navigate to the link in the github-pages section
+   * Select master branch
+   * Select Theme;
+   * Navigate to the link in the github-pages section
 3. Create a file
 ```markdown
 ---
@@ -50,9 +50,9 @@ put your content here
 ```
 7. Refresh the browser.
 6. GithubPages + Jekyll
-   Commit the changes
-   Enable github pages for the repo
-   Open the rendered site.
+   * Commit the changes
+   * Enable github pages for the repo
+   * Open the rendered site.
    
 ## Liveperson Developers Hub
 1. Goto [dev-hub-repo](https://lpgithub.dev.lprnd.net/pages/Architecture/dev-hub-internal/).
