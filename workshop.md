@@ -90,7 +90,7 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 url: https://eitan101.github.io/so-simple-theme
 ```
    * Commit the changes
-   * Enable github pages for the repo
+   * Enable github pages for the master branch
    * Open the rendered site.
    
 ## Liveperson Developers Hub
