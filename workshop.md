@@ -28,26 +28,7 @@ navigate to the page
 2. See the [editor](http://editor.swagger.io/#!/)
 3. See [redoc](https://github.com/Rebilly/ReDoc).
 4. Add spec file with the example in the editor to your repo. Call it spec.yaml
-5. Add redoc.html file as folows:
-
-```
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ReDoc</title>
-    <!-- needed for adaptive design -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ReDoc doesn't change outer page styles -->
-    <style>body { margin: 0; padding: 0; }</style>
-  </head>
-  <body>
-    <redoc spec-url='spec.yaml'></redoc>
-    <script src="https://rebilly.github.io/ReDoc/releases/latest/redoc.min.js"> </script>
-  </body>
-</html>
-```
-
+5. Add redoc.html file as [folows](https://raw.githubusercontent.com/eitan101/doc-test/master/kk.html).
 6. Task: edit the spec yaml to reflect [csds api](https://livepersoninc.github.io/dev-hub/current/agent-domain-domain-api.html), or any other lp rest-api.
 
 ## Jekyll
