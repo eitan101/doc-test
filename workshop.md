@@ -29,7 +29,8 @@ navigate to the page
 3. See [redoc](https://github.com/Rebilly/ReDoc).
 4. Add spec file with the example in the editor to your repo. Call it spec.yaml
 5. Add redoc.html file as folows:
-```html
+
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,6 +47,7 @@ navigate to the page
   </body>
 </html>
 ```
+
 6. Task: edit the spec yaml to reflect [csds api](https://livepersoninc.github.io/dev-hub/current/agent-domain-domain-api.html), or any other lp rest-api.
 
 ## Jekyll
