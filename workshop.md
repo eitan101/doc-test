@@ -14,14 +14,20 @@ permalink: workshop.html
    * Source: master branch
    * Select Theme;
    * Navigate to the link in the github-pages section
-3. Create a file
+3. Create a file called file.md
 ```markdown
 ---
 layout: default
 ---
 Your markdown here
 ```
-navigate to the page
+navigate to the github pages with path /file.html.
+4. Create a file called html.html:
+```markdown
+<h1>hello world<h1>
+```
+navigate to the github pages with path /html.html.
+
 
 ## Open API Spec
 1. Read the [spec](https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md)
