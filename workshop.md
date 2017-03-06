@@ -9,9 +9,9 @@ permalink: workshop.html
 * docker pull jekyll/jekyll
 
 ## Github Pages
-1. Create a repo in github.com with Readme.
+1. Create a repo in github.com **with Readme**.
 2. Settings -> Github Pages -> 
-   * Select master branch
+   * Source: master branch
    * Select Theme;
    * Navigate to the link in the github-pages section
 3. Create a file
