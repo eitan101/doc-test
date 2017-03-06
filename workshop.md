@@ -23,8 +23,8 @@ Your markdown here
 ```
 navigate to the github pages with path /file.html.
 4. Create a file called html.html:
-```markdown
-<h1>hello world<h1>
+```
+\<h1\>hello world\<h1\>
 ```
 navigate to the github pages with path /html.html.
 
