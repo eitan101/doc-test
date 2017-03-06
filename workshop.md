@@ -30,8 +30,23 @@ navigate to the page
 4. Add spec file with the example in the editor to your repo. Call it spec.yaml
 5. Add redoc.html file as folows:
 ```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReDoc</title>
+    <!-- needed for adaptive design -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ReDoc doesn't change outer page styles -->
+    <style>body { margin: 0; padding: 0; }</style>
+  </head>
+  <body>
+    <redoc spec-url='spec.yaml'></redoc>
+    <script src="https://rebilly.github.io/ReDoc/releases/latest/redoc.min.js"> </script>
+  </body>
+</html>
 ```
-6. Task: edit the spec yaml to reflect csds api, or any other lp rest-api.
+6. Task: edit the spec yaml to reflect [csds api](https://livepersoninc.github.io/dev-hub/current/agent-domain-domain-api.html), or any other lp rest-api.
 
 ## Jekyll
 1. Pick a theme from [here](http://jekyllthemes.org/)
@@ -42,32 +57,24 @@ navigate to the page
 docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
   -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve
 ```
-
-jekyll fork space-jekyll-template
-switch gh-pages.
-edit
-commit
-see
-
-clone
-
-```sh
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
-  -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve
+5. Open the browser at http://0.0.0.0:4000/
+6. TBD: Create a post page as follows:
+```markdown
+---
+layout: default
+---
+put your content here
 ```
-
-dev-hub
-
-fork jekyll
-build locally
-
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
-  -it -p 127.0.0.1:4005:4005 jekyll/jekyll bash
-bundle install
-bundle exec jekyll serve
-
-add md
-add redoc page
-
-
-
+7. Refresh the browser.
+6. GithubPages + Jekyll
+   Commit the changes
+   Enable github pages for the repo
+   Open the rendered site.
+   
+## Liveperson Developers Hub
+1. Goto [dev-hub-repo](https://lpgithub.dev.lprnd.net/pages/Architecture/dev-hub-internal/).
+2. Read the README.md
+3. Fork the repo
+4. Task 1: Add md page
+5. Task 2: Add redoc page with some rest-api
+   
