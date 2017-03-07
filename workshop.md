@@ -3,6 +3,23 @@ permalink: workshop.html
 ---
 
 # Workshop Flow
+1. Github Pages
+  * Free Hosting
+  * Nice Templates
+  * Markdown Renderer
+  * Documentation Automation
+2. Open API Spec
+  * Define You API in Yaml
+  * Link to you JsonSchema
+  * Generate Documentation
+  * Generate SDKs & Mocks
+3. Redoc
+  * The Best API Renderer
+  * Supports OpenAPI Spec
+4. Jekyll
+  * Build a site in a minutes
+  * Add markdown content
+5. LivePerson [Developers Hub](https://livepersoninc.github.io/dev-hub/)
 
 ## Prerequiesites 
 * docker
