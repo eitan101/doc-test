@@ -27,6 +27,7 @@ navigate to the github pages with path /file.html.
 \<h1\>hello world\<h1\>
 ```
 navigate to the github pages with path /html.html.
+4. Task: Upload your favorite javadoc to the repo.
 
 
 ## Open API Spec
