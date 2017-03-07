@@ -10,7 +10,7 @@ permalink: workshop.html
   * Documentation Automation
 2. Open API Spec
   * Define You API in Yaml
-  * Link to you JsonSchema
+  * Link to your JsonSchema
   * Generate Documentation
   * Generate SDKs & Mocks
 3. Redoc
